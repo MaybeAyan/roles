@@ -1,0 +1,53 @@
+
+:deep(.ant-tabs-nav-wrap) {
+  background-color: #fff;
+}
+
+:deep(.ant-tabs-nav-list){
+  height: 35px;
+  margin-left: 5px;
+  user-select:none;
+
+  .ant-tabs-tab{
+    margin: 2px;
+    font-size: 12px;
+    border: 1px solid #d9d9d9;
+  }
+
+  .ant-tabs-tab:hover {
+    .ant-tabs-tab-remove{
+      width: 10px;
+      color: #000;
+      visibility:visible;
+    }
+  }
+
+  .ant-tabs-tab-active{
+    border: 1px solid #f0f0f0 !important;
+    background-color: #0960bd;
+
+    .ant-tabs-tab-btn{
+      color: #fff;
+    }
+
+    .ant-tabs-tab-remove {
+      visibility:visible;
+      color: #fff;
+      width: 10px;
+    }
+  }
+
+  .ant-tabs-tab-active:hover {
+    .ant-tabs-tab-remove {
+      color: #fff;
+    }
+  }
+
+  .ant-tabs-tab-remove{
+    width: 10px;
+    margin-bottom: 5px;
+    scale: 0.9;
+    visibility:hidden;
+  }
+
+}
